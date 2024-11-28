@@ -1,0 +1,25 @@
+:root {
+  --base-color: linear-gradient(#e7e7e7, #f0c8ba);
+  --base-variant: #e2d8dc;
+  --text-color: #923983;
+  --primary-color: #d8cacf;
+  --accent-color: #0081ff;
+}
+.darkmode {
+  --base-color: linear-gradient(#a841c8, #2654b7);
+  --base-variant: #374fb7;
+  --text-color: #e3e2e4;
+  --secondary-text: #a4a5b8;
+  --primary-color: #768dd0;
+  --accent-color: #0071ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--base-color);
+  color: var(--text-color);
+}
