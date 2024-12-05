@@ -1,0 +1,173 @@
+.color-orange {
+    --color: #DF952C;
+}
+
+.color-aqua {
+    --color: #09A39F;
+}
+
+.color-red {
+    --color: #CB395E;
+}
+
+.color-purple {
+    --color: #991199;
+}
+
+.inc {
+    --inc-dec: #CB395E;
+}
+
+.dec {
+    --inc-dec: #09A39F;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .card-index {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color);
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 30px;
+  }
+  
+  .card-title {
+    position: absolute;
+    flex: 1;
+    max-width: 300px;
+    font-weight: 500;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin-left: 20px;
+    top: -10px;
+    font-size: 17px;
+  }
+
+  .line-vertical-upper {
+    position: absolute;
+    top: -20px;
+    border-left: 7px solid var(--color); /* Thickness and color of the line */
+    height: 20px; /* Length of the line */
+    margin: 0 2px; /* Optional spacing around the line */
+  }
+
+  .line-vertical-lower {
+    position: absolute;
+    top: 27px;
+    border-left: 7px solid var(--color); /* Thickness and color of the line */
+    height: 230px; /* Length of the line */
+    margin: 0 2px; /* Optional spacing around the line */
+  }
+
+  .card-info {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: grey;
+    display: flex;
+    border-radius: 20px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .card-icon {
+  cursor: pointer;
+  margin-left: 340px;
+  position: absolute;
+  }
+  
+  .card-value {
+    font-size: 52px;
+    text-align: center;
+    margin-top: 80px;
+
+  }
+  
+  .card-bar {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: -20px;
+    margin-top: 135px;
+    transform: scale(.7);
+  }
+
+  .curyear {
+    position: absolute;
+    top: 50px;
+    font-size: 28px;
+  }
+
+  .prevyear {
+    position: absolute;
+    top: 80px;
+    font-size: 28px;
+    left: 255px;
+  }
+
+  .card-percentage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .delta {
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--inc-dec);
+    margin-left: 90px;
+    margin-top: 110px;
+    border-radius: 3px;
+    padding: 1px;
+  }
+  .arrow {
+    position: absolute;
+    font-size: 28px;
+    margin-top: 60px;
+    margin-left: 340px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hide only x-axis labels */
+.fonts .MuiChartsAxis-root.MuiChartsAxis-directionX .MuiChartsAxis-tickLabel {
+    font-size: 0 !important; /* Hide x-axis tick labels */
+  }
+  
+  /* Ensure y-axis labels remain visible */
+  .fonts .MuiChartsAxis-root.MuiChartsAxis-directionY .MuiChartsAxis-tickLabel {
+    font-size: 19px !important; /* Set font size for y-axis tick labels */
+    font-weight: bold;
+}
+
+
+  

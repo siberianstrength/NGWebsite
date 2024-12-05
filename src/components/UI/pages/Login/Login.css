@@ -86,4 +86,14 @@
     font-weight: 700;
     cursor: pointer;
     border-color: var(--text-color);
+    margin-top: -20px;
+}
+
+.errorMessage {
+    color: rgb(204, 31, 31);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    font-size: 24px;
 }

@@ -1,0 +1,28 @@
+.color-orange {
+    --var-color: #DF952C;
+}
+
+.color-aqua {
+    --var-color: #09A39F;
+}
+
+.color-red {
+    --var-color: #CB395E;
+}
+
+.color-purple {
+    --var-color: #991199;
+}
+
+.textbar {
+    background-color: var(--var-color);
+    width: 600;
+    margin-left: 235px;
+    font-size: 24px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    font-weight: 40;
+}

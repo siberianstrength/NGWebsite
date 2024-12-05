@@ -32,7 +32,7 @@ export function App() {
           setIsAuth,
           isLoading,
         }}
-      >
+        >
         <div className="root">
           <AppRouter/>
         </div>
